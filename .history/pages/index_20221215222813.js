@@ -11,11 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" w-screen h-screen text-black ">
+      <div className="flex  w-full h-screen text-green-500 ">
         <header>
           <Header />
         </header>
-        <section className="flex mt-10 ">
+        <section>
           <aside>
             <Sidebar />
           </aside>

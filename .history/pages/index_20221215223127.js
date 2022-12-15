@@ -15,7 +15,7 @@ export default function Home() {
         <header>
           <Header />
         </header>
-        <section className="flex mt-10 ">
+        <section className="flex ">
           <aside>
             <Sidebar />
           </aside>

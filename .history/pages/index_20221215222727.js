@@ -1,5 +1,9 @@
-import Head from "next/head";
-import { Header, Midsection, Sidebar } from "../components";
+import Head from 'next/head'
+import { Header, Midsection, Sidebar } from '../components'
+
+
+
+ 
 
 export default function Home() {
   return (
@@ -11,18 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" w-screen h-screen text-black ">
+      <div className="flex  w-full h-screen text-green-500 ">
         <header>
           <Header />
         </header>
-        <section className="flex mt-10 ">
+        <div>
+          {" "}
           <aside>
             <Sidebar />
           </aside>
           <main className="flex  mx-auto">
             <Midsection />
           </main>
-        </section>
+        </div>
       </div>
     </>
   );
