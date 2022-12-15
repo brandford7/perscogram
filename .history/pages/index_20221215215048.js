@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Header, Midsection, Sidebar } from '../components'
+import { Midsection, Sidebar } from '../components'
 
 
 
@@ -14,16 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className="flex  w-full h-screen text-green-500 ">
-        <header><Header/></header>
-        <aside>
-          <Sidebar />
-        </aside>
-        <main className="flex  mx-auto">
-          <Midsection />
-        </main>
-      </div>
+    
+      <div className='flex  w-full h-screen text-green-500 '>Hello
+      <aside><Sidebar /></aside>
+        <main className='flex  mx-auto'><Midsection /></main>
+        
     </>
-  );
+  )
 }

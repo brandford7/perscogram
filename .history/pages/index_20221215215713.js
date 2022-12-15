@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Header, Midsection, Sidebar } from '../components'
+import { Midsection, Sidebar } from '../components'
 
 
 
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <div className="flex  w-full h-screen text-green-500 ">
-        <header><Header/></header>
+        <header
         <aside>
           <Sidebar />
         </aside>

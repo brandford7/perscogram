@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Header, Midsection, Sidebar } from '../components'
+import { Midsection, Sidebar } from '../components'
 
 
 
