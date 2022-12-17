@@ -1,5 +1,4 @@
 import React from "react";
-import Postbox from "./Postbox";
 
 const Midsection = () => {
   return (
