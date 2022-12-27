@@ -1,0 +1,17 @@
+import React from "react";
+import Useravatar from "./Useravatar";
+
+const Postcard = () => {
+  return (
+    <div>
+      <h1></h1>
+      <section className="top flex items-center ">
+        <Useravatar />
+      </section>
+      <section className="mid "></section>
+      <section className="bottom"></section>
+    </div>
+  );
+};
+
+export default Postcard;
